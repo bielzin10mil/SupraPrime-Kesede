@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <title>Login</title>
+    <link rel="shortcut icon" href="img/logo3.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/login.css">
+    
+</head>
+<body>
+    <section class="area-login">
+        <div class="login">
+            
+            <!--imagem acima do login-->
+            <div>
+                <img src="img/logo3.png" alt="">
+            </div>
+
+            <!--Login-->
+            <form method="post">
+                <input type="text" placeholder="Usuario" id="login">
+                <div class="error" id="email-invalid-error">Login ou Usuario inválido</div>
+                <input type="password"  placeholder="Senha" id="senha">
+                <div class="error" id="senha-invalid-error">Senha incorreta</div>
+                <input type="submit" onclick="logar(); return false">
+            </form>
+            <p>Ainda não tem conta? <a href="cadastro.html">Cria conta</a></p>
+
+        </div>
+
+    </section>
+
+
+    <script src="js/login.js"></script>
+
+
+</body>
+</html>

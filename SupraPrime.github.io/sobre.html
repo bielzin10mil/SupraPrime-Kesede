@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/sobre.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="img/logo.png" width="70px"></a>
+            </div>
+           <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>                  
+                     <li><a href="login.html">Login</a></li>
+                     <li><a href="produtos.html">Produtos</a></li>
+                     <li><a href="cadastro.html">Cadastro</a></li>
+                     <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+            <img src="img/menu.png" class="menu-icon" onClick="menutoggle()" >
+        </div>
+    </div>     
+
+
+    
+
+<div class="wrapper">
+    <h1>Integrantes do grupo</h1>
+    <div class="our_team">
+        <div class="team_member">
+          <div class="member_img">
+            <img src="img/foto.png" alt="our_team">
+            
+          </div>
+          <h3>Gabriel de Sousa Silveira</h3>        
+          <p><b>RA:202302381911</b></p>
+        </div>
+
+        <div class="team_member">
+           <div class="member_img">
+             <img src="img/foto.png" alt="our_team">
+             
+          </div>
+          <h3>Gabriel Rocha do Santos</h3>          
+          <p><b>RA:202302704328</b></p>
+      </div>
+      
+        <div class="team_member">
+           <div class="member_img">
+            <img src="img/foto.png" alt="our_team">
+          </div>
+          <h3>Gustavo Pascoal Novais Batista </h3>
+          <p><b>RA:202302380931</b></p>
+      </div>  
+    </div>
+</div>
+
+
+      <!--- footer --->
+           <div class ="footer">
+        <div class="container">                                  
+             <hr>
+             <p class="copyright">Copyright 2023 - SupraPrime</p>           
+        </div>
+        </div>
+            
+            
+            <script>
+                var menuItems=document.getElementById("MenuItems");
+                
+                MenuItems.style.maxHeight="0px";
+                function menutoggle(){
+                    if(MenuItems.style.maxHeight == "0px"){
+                        MenuItems.style.maxHeight="200px";
+                    }
+                    else{
+                        MenuItems.style.maxHeight="0px";
+                    }
+                }
+            </script>
+
+</body>
+</html>
